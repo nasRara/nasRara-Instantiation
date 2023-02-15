@@ -18,6 +18,7 @@ public class Lab {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        return null;
+        String myString = new String("this is my new object");
+        return myString;
     }
 }
